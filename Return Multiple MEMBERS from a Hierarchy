@@ -1,0 +1,3 @@
+To retrieve CUBEMEMBER from multiple members from the same hierarchy, use CUBESET and specify the array using {}.
+
+=CUBESET("Connection","{[Table].[Hierarchy].&[Member 1],[Table].[Hierarchy].&[Member 2],[Table].[Hierarchy].&[Member 3]}","Caption Title")
